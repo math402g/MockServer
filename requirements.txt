@@ -1,0 +1,2 @@
+jsonpickle==3.0.1
+paho_mqtt==1.6.1
