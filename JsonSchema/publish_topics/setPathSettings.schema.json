@@ -1,0 +1,19 @@
+{
+    "$id": "/schemas/path_settings",
+    "description": "Default path settings what will be used under path execution",
+    "subtopic": "/capra/robot/navigation/set_path_settings",
+    "responseTopic": "/capra/robot/navigation/set_path_settings/response",
+    "type": "object",
+    "max_point_deviation": {
+        "type": "float64 (meters)",
+        "description": "the scope of which a robot can deviate from the edge under path execution"
+    },
+    "turning_radius": {
+        "type": "float64 (radius)",
+        "description": "the turning radius when rounding a corner"
+    },
+    "offset_range": {
+        "type": "float64 (meters)",
+        "description": "an range where a robot can alternate it's path"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "description": "the default response message when publishing topics",
+    "success": {
+        "type": "boolean",
+        "description": "indicates if a message was successful or not"
+    },
+    "message": {
+        "type": "string",
+        "description": "descriptive message about the error"
+    }
+}

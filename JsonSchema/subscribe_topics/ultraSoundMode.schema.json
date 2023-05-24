@@ -1,0 +1,4 @@
+{
+    "$ref": "/schemas/ultrasound_mode",
+    "subtopic": "capra/service/tier0/sensors/ultrasound/mode"
+}

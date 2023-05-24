@@ -1,0 +1,26 @@
+{
+    "$id": "diagnostic/status/message",
+    "description": "general diagnostic message",
+    "type": "object",
+    "level": {
+        "type": "uint8",
+        "description": ""
+    },
+    "name": {
+        "type": "string",
+        "description": "internal name for the hardware"
+    },
+    "message": {
+        "type": "string",
+        "description": "descriptive name for the hardware"
+    },
+    "hardware_id": {
+        "type": "string",
+        "description": "the unique id for the hardware"
+    },
+    "values": {
+        "type": "KeyValuePair<string, string>",
+        "description": "list of key KeyValuePairs with different values based on the hardware type"
+    }
+
+}

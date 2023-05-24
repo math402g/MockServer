@@ -1,0 +1,11 @@
+{
+    "$id": "/schemas/robot_mode",
+    "description": "Used to set what the robot should be used for (will enable or disable serviced based on this selection)",
+    "subtopic": "capra/robot/set_mode",
+    "responseTopic": "capra/robot/set_mode/response",
+    "robot_mode": {
+        "type": "string",
+        "description": "the selected robot mode",
+        "enum": ["INDOOR", "OUTDOOR", "BOTH"]
+    }
+}

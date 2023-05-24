@@ -1,0 +1,13 @@
+{
+    "$id": "/schemas/robot_light_intensity",
+    "description": "used to set the intensity of the light on the robot",
+    "type": "object",
+    "subTopic": "capra/robot/set_light_intensity",
+    "responseTopic": "capra/robot/set_light_intensity/response",
+    "intensity": {
+        "type": "integer (percentage)",
+        "description": "the intensity of the lights",
+        "minimum": 0,
+        "maximum": 100
+    }    
+}

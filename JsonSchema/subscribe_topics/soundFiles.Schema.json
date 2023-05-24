@@ -1,0 +1,7 @@
+{
+    "subTopic": "capra/robot/sound_files",
+    "type": "array",
+    "contains": {
+        "$ref": "/schemas/sound_file"
+    }
+}

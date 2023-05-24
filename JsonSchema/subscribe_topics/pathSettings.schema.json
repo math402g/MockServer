@@ -1,0 +1,4 @@
+{
+    "$id": "/schemas/path_settings",
+    "subtopic": "/capra/robot/navigation/path_settings"
+}

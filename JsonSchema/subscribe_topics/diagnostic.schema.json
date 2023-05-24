@@ -1,0 +1,212 @@
+{
+    "title": "Robot diagnostic core data",
+    "description": "diagnostic information about the robot",
+    "subtopic": "capra/robot/diagnostics/core",
+    "type": "object",
+    "header": {
+        "description": "header information for this topic",
+        "type": "object",
+        "frame_id": {
+            "type": "string",
+            "description": "header ID of the message. The headerId is defined per topic and incremented by 1 with each sent (but not necessarily received)",
+            "Minimum": 0
+        },
+        "stamp": {
+            "type": "object",
+            "description": "unix timestamp for when the message was sent",
+            "seconds": {
+                "type": "integer",
+                "description": "unix in seconds"
+            },
+            "nanoseconds": {
+                "type": "integer",
+                "description": "nanoseconds since stamp_secs"
+            }
+        }
+    },
+    "status": {
+        "type": "array",
+        "$ref": "diagnostic/status/message",
+        "prefixItems": {
+            "CONTROL_SYSTEM": {
+                "description": "robot control system",
+                "values": [
+                    {
+                        "key": "SW_VERSION_MAJOR",
+                        "value": {
+                            "type": "string",
+                            "description": "major version of hardware"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_MINOR",
+                        "value": {
+                            "type": "string",
+                            "description": "minor version of hardware"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_PATCH",
+                        "value": {
+                            "type": "string",
+                            "description": "patch version of hardware"
+                        }
+                    }
+                ]
+            },
+            "HAS_<location>": {
+                "description": "Wheel angle Sensor ($location can be in FRONT or REAR)",
+                "values": [
+                    {
+                        "key": "MAGNETIC_FIELD",
+                        "value": {
+                            "type": "string (int32)",
+                            "description": "Magnetic field value for motor"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_MAJOR",
+                        "value": {
+                            "type": "string (int32)",
+                            "description": "major version of hardware"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_MINOR",
+                        "value": {
+                            "type": "string (int32)",
+                            "description": "minor version of hardware"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_PATCH",
+                        "value": {
+                            "type": "string (int32)",
+                            "description": ""
+                        }
+                    },
+                    {
+                        "key": "TEMPERATURE",
+                        "value": {
+                            "type": "string (float64)",
+                            "description": "the Temperature for the wheel (normal = ~39, warning = 40-69, danger = 70~)"
+                        }
+                    }
+                ]
+            },
+            "HMC_<location>": {
+                "description": "motor sensor information ($location can be in FRONT, REAR, LEFT, RIGHT)",
+                "values": [
+                    {
+                        "key": "CURRENT",
+                        "value": {
+                            "type": "string (float64)",
+                            "description": "the current delivered to the motor. Current consumption should be between 35mA-5mA "
+                        }
+                    },
+                    {
+                        "key": "HUMIDITY",
+                        "value": {
+                            "type": "string (int32)",
+                            "description": "relative humidity sensor (Si7020-A20). humidity should be between 40-60%"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_MAJOR",
+                        "value": {
+                            "type": "string (int32)",
+                            "description": "major version of hardware"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_MINOR",
+                        "value": {
+                            "type": "string (int32)",
+                            "description": "minor version of hardware"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_PATCH",
+                        "value": {
+                            "type": "string (int32)",
+                            "description": ""
+                        }
+                    },
+                    {
+                        "key": "TEMPERATURE",
+                        "value": {
+                            "type": "string (float64)",
+                            "description": "the Temperature for the wheel (normal = ~39, warning = 40-69, danger = 70~)"
+                        }
+                    }
+                ]
+            },
+            "HUL_<location>": {
+                "description": "Ultrasound and Brake control version ($location can be in LEFT or RIGHT)",
+                "values": [
+                    {
+                        "key": "HUMIDITY",
+                        "value": {
+                            "type": "string (int32)",
+                            "description": "relative humidity sensor (Si7020-A20). humidity should be between 40-60%"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_MAJOR",
+                        "value": {
+                            "type": "string",
+                            "description": "major version of hardware"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_MINOR",
+                        "value": {
+                            "type": "string",
+                            "description": "minor version of hardware"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_PATCH",
+                        "value": {
+                            "type": "string",
+                            "description": "patch version of hardware"
+                        }
+                    },
+                    {
+                        "key": "TEMPERATURE",
+                        "value": {
+                            "type": "string (float64)",
+                            "description": "the Temperature for the wheel (normal = ~39, warning = 40-69, danger = 70~)"
+                        }
+                    }
+                ]
+            },
+            "POWER_SYSTEM": {
+                "description": "Robot power system",
+                "values": [
+                    {
+                        "key": "SW_VERSION_MAJOR",
+                        "value": {
+                            "type": "string",
+                            "description": "major version of hardware"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_MINOR",
+                        "value": {
+                            "type": "string",
+                            "description": "minor version of hardware"
+                        }
+                    },
+                    {
+                        "key": "SW_VERSION_PATCH",
+                        "value": {
+                            "type": "string",
+                            "description": "patch version of hardware"
+                        }
+                    }
+                ]
+            }            
+        }
+    }
+}

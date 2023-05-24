@@ -1,0 +1,4 @@
+{
+    "$ref": "/schemas/robot_mode",
+    "subtopic": "/capra/robot/mode"
+}

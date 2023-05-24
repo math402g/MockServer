@@ -1,0 +1,15 @@
+{
+    "$id": "/schemas/sound_file",
+    "subTopic": "capra/robot/upload_sound",
+    "responseTopic": "capra/robot/upload_sound/response",
+    "description": "used to upload a sound file that can be used on the robot via another mqtt call",
+    "name": {
+        "type": "string",
+        "description": "name of the sound file"
+    },
+    "sound_file": {
+        "type": "string",
+        "contentEncoding": "base64",
+        "contentMediaType": "audio/mpeg3"
+    }
+}

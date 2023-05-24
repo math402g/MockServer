@@ -1,0 +1,13 @@
+{
+    "$id": "/schemas/ultrasound_mode",
+    "description": "Message to enable or disable ultrasound mode",
+    "subtopic": "capra/service/tier0/sensors/ultrasound/set_mode",
+    "responseTopic": "capra/service/tier0/sensors/ultrasound/set_mode/response",
+    "type": "object",
+    "mode": {
+        "description": "used to set if ultrasound should be enabled=1 or disabled=0",
+        "type": "int32",
+        "minimum": 0,
+        "maximum": 1
+    }
+}

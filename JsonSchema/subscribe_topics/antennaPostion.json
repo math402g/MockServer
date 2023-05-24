@@ -1,0 +1,4 @@
+{
+    "$ref": "/schemas/antenna_position",
+    "subTopic": "capra/service/tier1/sensors/gnss/antennas/position"
+}

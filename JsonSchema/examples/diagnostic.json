@@ -1,0 +1,322 @@
+{
+    "header": {
+        "frame_id": "",
+        "stamp": {
+            "seconds": 1683544148,
+            "nanoseconds": 610380350
+        }
+    },
+    "status": [
+        {
+            "level": 0,
+            "name": "CONTROL_SYSTEM",
+            "message": "Control System",
+            "hardware_id": "",
+            "values": [
+                {
+                    "key": "SW_VERSION_MAJOR",
+                    "value": "0"
+                },
+                {
+                    "key": "SW_VERSION_MINOR",
+                    "value": "22"
+                },
+                {
+                    "key": "SW_VERSION_PATCH",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "level": 0,
+            "name": "HAS_FRONT",
+            "message": "Front Angle Sensor",
+            "hardware_id": "",
+            "values": [
+                {
+                    "key": "MAGNETIC_FIELD",
+                    "value": "688"
+                },
+                {
+                    "key": "SW_VERSION_MAJOR",
+                    "value": "0"
+                },
+                {
+                    "key": "SW_VERSION_MINOR",
+                    "value": "6"
+                },
+                {
+                    "key": "SW_VERSION_PATCH",
+                    "value": "3"
+                },
+                {
+                    "key": "TEMPERATURE",
+                    "value": "220.000000"
+                }
+            ]
+        },
+        {
+            "level": 0,
+            "name": "HAS_REAR",
+            "message": "Rear Angle Sensor",
+            "hardware_id": "",
+            "values": [
+                {
+                    "key": "MAGNETIC_FIELD",
+                    "value": "783"
+                },
+                {
+                    "key": "SW_VERSION_MAJOR",
+                    "value": "0"
+                },
+                {
+                    "key": "SW_VERSION_MINOR",
+                    "value": "6"
+                },
+                {
+                    "key": "SW_VERSION_PATCH",
+                    "value": "3"
+                },
+                {
+                    "key": "TEMPERATURE",
+                    "value": "207.000000"
+                }
+            ]
+        },
+        {
+            "level": 0,
+            "name": "HMC_FRONT",
+            "message": "Front Wheel",
+            "hardware_id": "",
+            "values": [
+                {
+                    "key": "CURRENT",
+                    "value": "0.236000"
+                },
+                {
+                    "key": "HUMIDITY",
+                    "value": "109"
+                },
+                {
+                    "key": "SW_VERSION_MAJOR",
+                    "value": "0"
+                },
+                {
+                    "key": "SW_VERSION_MINOR",
+                    "value": "7"
+                },
+                {
+                    "key": "SW_VERSION_PATCH",
+                    "value": "2"
+                },
+                {
+                    "key": "TEMPERATURE",
+                    "value": "27.000000"
+                }
+            ]
+        },
+        {
+            "level": 0,
+            "name": "HMC_LEFT",
+            "message": "Left Wheel",
+            "hardware_id": "",
+            "values": [
+                {
+                    "key": "CURRENT",
+                    "value": "0.222000"
+                },
+                {
+                    "key": "HUMIDITY",
+                    "value": "29"
+                },
+                {
+                    "key": "SW_VERSION_MAJOR",
+                    "value": "0"
+                },
+                {
+                    "key": "SW_VERSION_MINOR",
+                    "value": "7"
+                },
+                {
+                    "key": "SW_VERSION_PATCH",
+                    "value": "2"
+                },
+                {
+                    "key": "TEMPERATURE",
+                    "value": "27.000000"
+                }
+            ]
+        },
+        {
+            "level": 0,
+            "name": "HMC_REAR",
+            "message": "Rear Wheel",
+            "hardware_id": "",
+            "values": [
+                {
+                    "key": "CURRENT",
+                    "value": "0.249000"
+                },
+                {
+                    "key": "HUMIDITY",
+                    "value": "82"
+                },
+                {
+                    "key": "SW_VERSION_MAJOR",
+                    "value": "0"
+                },
+                {
+                    "key": "SW_VERSION_MINOR",
+                    "value": "7"
+                },
+                {
+                    "key": "SW_VERSION_PATCH",
+                    "value": "2"
+                },
+                {
+                    "key": "TEMPERATURE",
+                    "value": "27.000000"
+                }
+            ]
+        },
+        {
+            "level": 0,
+            "name": "HMC_RIGHT",
+            "message": "Right Wheel",
+            "hardware_id": "",
+            "values": [
+                {
+                    "key": "CURRENT",
+                    "value": "0.243000"
+                },
+                {
+                    "key": "HUMIDITY",
+                    "value": "27"
+                },
+                {
+                    "key": "SW_VERSION_MAJOR",
+                    "value": "0"
+                },
+                {
+                    "key": "SW_VERSION_MINOR",
+                    "value": "7"
+                },
+                {
+                    "key": "SW_VERSION_PATCH",
+                    "value": "2"
+                },
+                {
+                    "key": "TEMPERATURE",
+                    "value": "27.000000"
+                }
+            ]
+        },
+        {
+            "level": 0,
+            "name": "HUL_LEFT",
+            "message": "Left Ultrasound and Brake",
+            "hardware_id": "",
+            "values": [
+                {
+                    "key": "SW_VERSION_MAJOR",
+                    "value": "0"
+                },
+                {
+                    "key": "SW_VERSION_MINOR",
+                    "value": "6"
+                },
+                {
+                    "key": "SW_VERSION_PATCH",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "level": 0,
+            "name": "HUL_RIGHT",
+            "message": "Right Ultrasound and Brake",
+            "hardware_id": "",
+            "values": [
+                {
+                    "key": "SW_VERSION_MAJOR",
+                    "value": "0"
+                },
+                {
+                    "key": "SW_VERSION_MINOR",
+                    "value": "6"
+                },
+                {
+                    "key": "SW_VERSION_PATCH",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "level": 0,
+            "name": "POWER_SYSTEM",
+            "message": "Power System",
+            "hardware_id": "",
+            "values": [
+                {
+                    "key": "HUMIDITY",
+                    "value": "23"
+                },
+                {
+                    "key": "SW_VERSION_MAJOR",
+                    "value": "0"
+                },
+                {
+                    "key": "SW_VERSION_MINOR",
+                    "value": "8"
+                },
+                {
+                    "key": "SW_VERSION_PATCH",
+                    "value": "2"
+                },
+                {
+                    "key": "TEMPERATURE",
+                    "value": "27.000000"
+                }
+            ]
+        },
+        {
+            "level": 0,
+            "name": "ekf_filter_node_map: Filter diagnostic updater",
+            "message": "The robot_localization state estimation node appears to be functioning properly.",
+            "hardware_id": "",
+            "values": []
+        },
+        {
+            "level": 0,
+            "name": "ekf_filter_node_map: odometry/filtered topic status",
+            "message": "",
+            "hardware_id": "",
+            "values": [
+                {
+                    "key": "Actual frequency (Hz)",
+                    "value": "10.000078"
+                },
+                {
+                    "key": "Duration of window (s)",
+                    "value": "5.299958"
+                },
+                {
+                    "key": "Events in window",
+                    "value": "53"
+                },
+                {
+                    "key": "Events since startup",
+                    "value": "2089"
+                },
+                {
+                    "key": "Maximum acceptable frequency (Hz)",
+                    "value": "13.200000"
+                },
+                {
+                    "key": "Minimum acceptable frequency (Hz)",
+                    "value": "7.200000"
+                }
+            ]
+        }
+    ]
+}

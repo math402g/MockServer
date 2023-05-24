@@ -1,0 +1,10 @@
+{
+    "description": "settings for the router in the robot",
+    "subtopic": "/capra/robot/router_settings",
+    "type": "object",    
+    "mode": {
+        "type": "string",
+        "description": "toggle between a WAN port and a LAN port",
+        "enum": ["WAN", "LAN"]
+    }
+}

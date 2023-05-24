@@ -1,0 +1,15 @@
+{
+    "$id": "/schemas/antenna_position",
+    "description": "message to set antennas position",
+    "subtopic": "capra/service/tier1/sensors/gnss/antennas/set_position",
+    "responseTopic": "capra/service/tier1/sensors/gnss/antennas/set_position/response",
+    "type": "object",
+    "rover_pose": {
+        "$ref": "http://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Pose.html",
+        "description": "Robot position relative to antenna position"
+    },
+    "base_pose": {
+        "$ref": "http://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Pose.html",
+        "description": "antenna position"
+    }
+}

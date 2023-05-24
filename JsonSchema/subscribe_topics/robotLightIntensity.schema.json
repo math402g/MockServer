@@ -1,0 +1,4 @@
+{
+    "$ref": "/schemas/robot_light_intensity",
+    "subTopic": "capra/robot/light_intensity"
+}

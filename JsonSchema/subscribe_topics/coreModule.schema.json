@@ -1,0 +1,11 @@
+{
+    "description": "The core status topic contains different useful information about the robot, however, as of now, only the battery percentage is available.",
+    "subtopic": "/capra/robot/status/core",
+    "type": "object",    
+    "battery_percentage": {
+        "type": "uint8",
+        "description": "Battery percentage Currently with an error so empty is around 30% and full is around 85%",
+        "minimum": "0",
+        "maximum": "100"
+    }
+}

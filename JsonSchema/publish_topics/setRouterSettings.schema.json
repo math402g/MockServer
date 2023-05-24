@@ -1,0 +1,18 @@
+{
+    "description": "settings for the router in the robot",
+    "subtopic": "capra/robot/set_router_settings",
+    "responseTopic": "capra/robot/set_router_settings/",
+    "type": "object",
+    "password": {
+        "type": "string",
+        "description": "used to change the password for the router (if null will do nothing)",
+        "maximum": 50,
+        "minimum": 8
+    },
+    "set_mode": {
+        "type": "string",
+        "description": "toggle between a WAN port and a LAN port",
+        "enum": ["WAN", "LAN"]
+    }
+
+}
